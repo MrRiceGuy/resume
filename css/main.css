@@ -1,0 +1,151 @@
+/*CSS for webRes
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*css for webRes*/
+
+
+@media screen{
+	
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 80%;
+	background-color: #c3c3c3;
+	margin: 0 auto;
+	padding: 0 0 0 0px;
+}
+
+
+.top{
+	width: 100%;
+	height: 200px;
+	margin: 0 0 10px 0;
+	padding: 0 0 4px 0;
+	background-image: url(../images/BWbckgrndriver.jpg);
+	background-size: 90%;
+	border-bottom: 1px solid #9a9aa2;
+	background-position: right;
+}
+
+#logo{
+	height: 204px;
+	width: 150px;
+	display:inline-block;
+
+	background-image: url(../images/carson006.jpg);
+	background-size: 100%;
+	background-position: center;
+	
+}
+
+.infobar{
+	display: inline-block;
+	width: 230px;
+	height: 124PX;
+	text-align: left;
+	margin: 18px 41px 0 0;
+	padding: 0 0 0px 0;
+	position: relative;
+	float: right;
+	font: normal normal bold 1.1em/2em Noto Sans, sans-serif;
+}
+
+#profile{
+	background-color: #33ccff;
+	margin-bottom: 10px;
+	padding: 30px;
+}
+
+#profile p{
+	font: normal normal 1.2em/2em PT Sans Narrow, sans-serif;
+}
+
+
+#left{
+	
+	float:left;
+	width: 45%;
+	display:inlnie-block;
+	padding: 10px 20px;
+}
+
+
+#left h2{
+	margin-bottom: 15px;
+}
+
+#left h5{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#left ul li{
+	font: normal normal normal 1.3em/2em Noto Sans, sans-serif;
+	list-style: disc;
+	margin: 0 0 20px 30px;
+}
+
+h1{
+	margin: 20px 20px 50px 20px;
+	background-color: #777777;
+	display:inline-block;
+}
+
+#left ul{
+	margin: 20px 0 10px 0;
+}
+
+
+
+.right{
+	float:right;
+	width: 45%;
+	display:inlnie-block;
+	padding: 10px 20px;
+}
+
+
+#photos{
+	
+	height: 200px;
+	width: 380px;
+	margin:0 0 25px 0;
+	background-size:100%;
+	border: 2px solid #333333;
+	border-radius: 4px;
+}
+
+#photos .p1{
+	
+	height: 30%;
+	width: 100%;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1500px){
+
+}@media screen and (min-width: 768px) and (max-width: 1199px){
+
+}@media screen and (min-width: 300px) and (max-width: 767px){
+
+}@media print{
+
+}
